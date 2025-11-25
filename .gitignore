@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# ROS
+devel/
+logs/
+build/
+bin/
+lib/
+msg_gen/
+srv_gen/
+*.pyc
+
+# CAD
+*.stl.bak
+*.f3d.lock
+~$*
+
+# Simulation
+*.log
+*.bag
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.a
+*.so
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Large files that should be stored elsewhere
+# Uncomment these if you have large files:
+# *.stl
+# *.step
+# *.iges
+
+# Secrets and configuration
+config/secrets.yaml
+*.pem
+*.key
+
+# Test data
+test_data/
+calibration_data/*.csv
